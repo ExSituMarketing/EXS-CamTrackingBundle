@@ -1,0 +1,11 @@
+services:
+    cam_tracking.listener:
+        class: Exs\CamTrackingBundle\EventListener\CamTrackingListener
+        arguments:
+            - '@cam_tracking.service'
+            - '%cam_tracking.read_parameter%'
+        tags:
+            - { name: kernel.event_listener, event: kernel.request }
+
+    cam_tracking.service:
+        class: Exs\CamTrackingBundle\Service\PersistenceService

@@ -22,11 +22,6 @@
   "autoload": {
     "psr-4": { "exs\\CamTrackingBundle\\": "" }
   },
-  "extra" : {
-    "branch-alias" : {
-      "dev-master" : "master"
-    }
-  },
   "minimum-stability": "dev",
   "config": {
     "bin-dir": "bin"

@@ -20,7 +20,7 @@
     "phpunit/phpunit": "~4.8"
   },
   "autoload": {
-    "psr-4": { "exs\\CamTrackingBundle\\": "" }
+    "psr-4": { "Exs\\CamTrackingBundle\\": "" }
   },
   "minimum-stability": "dev",
   "config": {
